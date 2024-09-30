@@ -1,5 +1,5 @@
 # Multiparty data sharing confidential computing data clean room solution
-The following is our process to setting up a data clean room solution for part 1 of the GES hackathon.
+The following is our process to setting up a data clean room solution.
 
 The chosen process follows a 'background check model' of verification where the relying party asks for verification when the attester presents its evidence'. It was chosen because it is the most common in the industry and it is easier to revoke access in case of any issues.
 
