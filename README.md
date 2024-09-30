@@ -1,5 +1,62 @@
 # HackAI- Hackathon
 
+## Prerequisites
+
+Before running this project, make sure you have the following installed:
+
+- **NVIDIA AI Workbench**: [Installation guide](https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html)
+- **Python 3.8+**
+- **CUDA Toolkit** (for GPU acceleration)
+- **Docker** (for containerized environments)
+
+
+## Installation 
+
+1. **Set Up NVIDIA AI Workbench**:
+    - Follow the [Installation guide](https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html) to set up the Workbench on your local machine or cloud environment.
+    
+    - Start the local server in Nvidia AI Workbench
+    ![](img/image.png)
+   
+
+    - Start new project, where you can clone the new repository from github.
+    ![alt text](img/image-2.png)
+
+2. **Clone the Repository in the new project**:
+    ```bash
+    git clone https://github.com/W2SG-smokiee/nvidia_ai.git
+    cd nvidia-ai 
+    ```
+    - After cloning the repository the project should be in a build-ready stage which you can see at the bottom right corner of the AI workbench.
+    ![alt text](img/image-4.png)
+
+3. **Launching NVIDIA Workbench using WSL**
+
+- To start the NVIDIA Workbench environment on WSL, use the following command:
+
+```bash
+wsl -d NVIDIA-Workbench --cd ~
+```
+![alt text](img/image-5.png)
+
+4. **Activate the NVIDIA Workbench Environment**:
+   Use the following command to activate the local environment:
+   ```bash
+   nvwb activate local && nvwb open Synthetic AI Data generator
+   ```
+
+
+3. **Install Dependencies and Configure environment variables**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the application on CLI**
+    ```bash
+    ```
+![alt text](img/image-6.png)
+
+
 - [Implementation of DCR](./data_clean_room/dcr_implementation.md)
 ---
 ### Overview 
