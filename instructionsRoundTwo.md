@@ -1,5 +1,5 @@
 # Multiparty data sharing confidential computing data clean room solution
-The following is our process to setting up a data clean room solution for part 1 of the GES hackathon. It is a prototype solution for a Data Clean Room which facilitates the sharing of data between two parties: Advertisers and publishers. These two parties will pass in encrypted data which will be used to generate synthetic data and predictive analytics. The use of a Trusted Execution environment and remote key/attestation server ensures that the data is safe while 'in use'. 
+The following is our process to setting up a data clean room solution. It is a prototype solution for a Data Clean Room which facilitates the sharing of data between two parties: Advertisers and publishers. These two parties will pass in encrypted data which will be used to generate synthetic data and predictive analytics. The use of a Trusted Execution environment and remote key/attestation server ensures that the data is safe while 'in use'. 
 
 The chosen process follows a 'background check model' of verification where the relying party asks for verification when the attester presents its evidence'. It was chosen because it is the most common in the industry and it is easier to revoke access in case of any issues.
 
