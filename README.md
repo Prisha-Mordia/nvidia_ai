@@ -1,4 +1,4 @@
-# TiDB-Hackathon
+# HackAI- Hackathon
 
 - [Implementation of DCR](./data_clean_room/dcr_implementation.md)
 ---
@@ -38,11 +38,11 @@ We aimed to train a predictive model with the following parameters - Identifying
 
 ---
 
- Team Name: BitBuilders
+ Team Name: Freemasons
 
 Team Leader: Arnav Sonavane
 
 Members:
-- Navneet manoj
-- Aarian Thakur
-- shiva sukumar
+- Prisha M
+- Dhanush 
+- Shiva Sukumar
