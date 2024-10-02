@@ -94,11 +94,14 @@ We aimed to train a predictive model with the following parameters - Identifying
 
 ---
 
- Team Name: Freemasons
+# WORKFLOW :-
+![workflow](workflow.png)
+
+Team Name: Freemasons
 
 Team Leader: Arnav Sonavane
 
 Members:
-- Prisha M
+- Prisha Mordia
 - Dhanush 
 - Shiva Sukumar
