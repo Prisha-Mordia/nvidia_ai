@@ -1,0 +1,7 @@
+dask
+os
+numpy
+pandas
+sklearn
+Crypto
+tensorflow<=2.10
